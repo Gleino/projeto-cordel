@@ -1,0 +1,87 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Macondo&display=swap');
+
+:root {
+    --font-titulo: 'Macondo', sans-serif;
+    --font-texto: 'Caveat', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+}
+header h1 {
+    font-family: var(--font-titulo);
+    font-variant: small-caps;
+    font-size: 8vh;
+    color: aliceblue;
+    padding-top: 8vh;
+}
+header p {
+    color: aliceblue;
+    padding-bottom: 8vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header a {
+    text-decoration: none;
+    color: aliceblue;
+}
+header a:hover {
+    text-decoration: underline;
+}
+
+main p {
+    line-height: 6vw;
+    font-family: var(--font-texto);
+    font-size: 4vw;
+    display: inline-block;
+    padding: 10px;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+section.img p {
+    background-color: rgba(0, 0, 0, 0.500);
+    color: aliceblue;
+    border-radius: 0px 10px 15px 0px;
+}
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+    background-color: black;
+    font-size: 1.8vw;
+    color: aliceblue;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+footer a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bolder;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer strong {
+    font-weight: bolder;
+}
